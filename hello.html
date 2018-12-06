@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <p>Click the Button To Wait 3 Seconds, The alert "Hello".</p>
+    <p>After Clicking Away The Alert Box, An New alert Box Will Apper In 3 Seconds.
+    This gose on forvcer...</p>
+    <button onclick="myFunction()">Try it</button>
+    <script>
+      function myFunction(){
+        setInterval(function(){
+          alert("Hello");
+        }, 3000);
+      }
+
+    </script>
+  </body>
+</html>
